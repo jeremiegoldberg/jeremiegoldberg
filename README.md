@@ -84,16 +84,6 @@ Every README says what the project does *and what it is missing* — no ingress,
 no resource limits, no readiness probe, an in-memory scoreboard. If something
 here would not survive production, it says so.
 
----|---|
-| **[self-documenting-wiki](https://github.com/jeremiegoldberg/self-documenting-wiki)** | Generates a documentation index from repository descriptions and topics. Go, standard library only. Documentation that can't drift, because nothing about it is written by hand. |
-| **[kc2tf](https://github.com/jeremiegoldberg/kc2tf)** | Exports a running Keycloak realm into importable Terraform. |
-| **[gitlab-cli](https://github.com/jeremiegoldberg/gitlab-cli)** | Go CLI for GitLab merge requests, with changelog validation and merge blocking. |
-| **[dify-terraform](https://github.com/jeremiegoldberg/dify-terraform)** | Deploying an LLM application platform on Kubernetes, described end to end. |
-| **[dcos-scaleway](https://github.com/jeremiegoldberg/dcos-scaleway)** | A seven-node DC/OS cluster on Scaleway, from 2018. Kept as a record of what orchestration looked like before Kubernetes won. |
-
-The older repositories are teaching material, most of them companions to blog
-posts. They are small on purpose.
-
 ---
 
 [Blog](https://blog.jeremiegoldberg.com) · [LinkedIn](https://www.linkedin.com/in/jeremiegoldberg/)
