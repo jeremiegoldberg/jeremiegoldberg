@@ -46,6 +46,13 @@ A few that make the argument better than a CV would:
 - **[Being right is not enough](https://blog.jeremiegoldberg.com/en/blogs/being-right-is-not-enough/)**
   — on the transformations that don't take, the teams that aren't ready, and the
   two or three people you leave behind.
+- **[WEB3: how to herd sheep on acid](https://blog.jeremiegoldberg.com/en/blogs/web3-how-to-herd-sheep-on-acid/)**
+  — two years running a free public service for a decentralised network, on
+  three hosting providers and one volunteer. Five hundred and thirty-five
+  commits out of five hundred and thirty-six, and what that turned out to mean.
+- **[Your backups protect the wrong thing](https://blog.jeremiegoldberg.com/en/blogs/your-backups-protect-the-wrong-thing/)**
+  — derived data does not need backing up, it needs to be reconstructible. Two
+  different problems, one policy, and a number nobody has measured.
 
 ---
 
@@ -56,9 +63,9 @@ A few that make the argument better than a CV would:
 | | |
 |---|---|
 | **[self-documenting-wiki](https://github.com/jeremiegoldberg/self-documenting-wiki)** | Generates a documentation index from repository descriptions and topics. Go, standard library only. Documentation that can't drift, because nothing about it is written by hand. |
-| **[kc2tf](https://github.com/jeremiegoldberg/kc2tf)** | Exports a running Keycloak realm into importable Terraform. |
-| **[gitlab-cli](https://github.com/jeremiegoldberg/gitlab-cli)** | Go CLI for GitLab merge requests, with changelog validation and merge blocking. |
-| **[web-lang-detector](https://github.com/jeremiegoldberg/web-lang-detector)** | Detects the language and country of a web page from its markup, headers and TLD. |
+| **[kc2tf](https://github.com/jeremiegoldberg/kc2tf)** | Exports a *running* Keycloak realm into importable Terraform, read from the Admin API. You don't recreate the realm, you take it over. |
+| **[gitlab-cli](https://github.com/jeremiegoldberg/gitlab-cli)** | Makes a merge request prove it has a changelog entry and a milestone before it can merge — from CI, not from a reviewer's memory. |
+| **[web-lang-detector](https://github.com/jeremiegoldberg/web-lang-detector)** | Detects the language and country of a web page from its markup, headers and TLD. One binary, one dependency, no service to call. |
 
 **Small services, deployed end to end**
 
@@ -82,7 +89,9 @@ same paved road — which is the point of a paved road.
 
 Every README says what the project does *and what it is missing* — no ingress,
 no resource limits, no readiness probe, an in-memory scoreboard. If something
-here would not survive production, it says so.
+here would not survive production, it says so. Where a repository cannot be run
+at all any more, that is the first line of its README rather than something you
+discover after cloning it.
 
 ---
 
