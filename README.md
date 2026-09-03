@@ -62,6 +62,7 @@ A few that make the argument better than a CV would:
 
 | | |
 |---|---|
+| **[opamela](https://github.com/jeremiegoldberg/opamela)** | Mirrors opam-repository by rewriting it. An opam index is a directory of third-party URLs, so a cache in front of one caches the index and nothing else. Go, standard library only. |
 | **[self-documenting-wiki](https://github.com/jeremiegoldberg/self-documenting-wiki)** | Generates a documentation index from repository descriptions and topics. Go, standard library only. Documentation that can't drift, because nothing about it is written by hand. |
 | **[kc2tf](https://github.com/jeremiegoldberg/kc2tf)** | Exports a *running* Keycloak realm into importable Terraform, read from the Admin API. You don't recreate the realm, you take it over. |
 | **[gitlab-cli](https://github.com/jeremiegoldberg/gitlab-cli)** | Makes a merge request prove it has a changelog entry and a milestone before it can merge — from CI, not from a reviewer's memory. |
